@@ -1,0 +1,10 @@
+.background {
+    height: 1200px;
+    width: 100%;
+    text-align: center;
+    background-image: url(./assests/kv_bgimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+   }
