@@ -7,10 +7,7 @@ function App() {
         <div>
           <header className="App-header">
             DEAR COCO
-      </header>
-          <div>
-
-          </div>
+          </header>
         </div>
       </div>
     </div>
