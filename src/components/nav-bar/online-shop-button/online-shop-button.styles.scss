@@ -1,0 +1,46 @@
+.online-shop-button {
+    background-color: #5A4537;
+    opacity: 0.9;
+
+    display: inline-flex;
+
+    width: 222px;
+    height:96px;
+
+    &:hover {
+        background-color: #CCB84B;   
+    }
+}
+
+.text {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    align-self: center;
+    width: auto;
+    
+    margin-left: 15px;
+}
+
+.icon {
+
+    width:25px;
+    height: 23px;
+    background: url(../../../assets/sp_shopping_icon.svg);
+
+    margin-left: 32px;
+}
+
+.icon-text-container {
+
+    width: 220px;
+    height: 24px;
+    
+    align-self: center;
+
+    display: flex;
+
+}
