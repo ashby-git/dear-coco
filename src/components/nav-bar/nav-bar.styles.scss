@@ -1,0 +1,40 @@
+.nav-bar-container {
+    width: 936px;
+    height: 112px;
+    margin-top: 8px;
+    
+
+    background-color: red;
+
+    // 7 columns using flexbox
+    // 55px or 50px between all items and logo
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.test-logo {
+    height:112px;
+    width:112px;
+    background-color: blue;
+}
+
+.test-button {
+    width: 222px;
+    height: 96px;
+    background-color: green;
+    
+}
+
+.super-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+// .logo {
+//     background: url(../../assets/logo.svg);
+//     width: 112px;
+//     height: 112px;
+// }
