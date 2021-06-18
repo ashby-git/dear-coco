@@ -1,0 +1,24 @@
+.container {
+    width:auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-item {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px 0px 9px #00000012;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+
+    &:hover {
+        color: #CEBB35;
+        text-decoration: underline;
+        text-decoration-color: #CEBB35;
+        
+    }
+}
