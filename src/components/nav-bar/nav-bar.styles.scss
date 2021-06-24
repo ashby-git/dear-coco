@@ -1,40 +1,26 @@
 .nav-bar-container {
-    width: 936px;
-    height: 112px;
-    margin-top: 8px;
-    
-
-    background-color: red;
-
-    // 7 columns using flexbox
-    // 55px or 50px between all items and logo
-
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 8vw;
 }
 
-.test-logo {
-    height:112px;
-    width:112px;
-    background-color: blue;
+.logo {
+    background: url(../../assets/logo.svg);
+    width: 112px;
+    height: 112px;
 }
 
-.test-button {
-    width: 222px;
-    height: 96px;
-    background-color: green;
-    
+.logo-container {
+    margin-top: 8px;
 }
 
-.super-container {
-    display: flex;
-    justify-content: flex-end;
+.items {
+    margin-bottom: 20px;
 }
 
-
-// .logo {
-//     background: url(../../assets/logo.svg);
-//     width: 112px;
-//     height: 112px;
-// }
+.shop-button {
+    margin-bottom: 30px;
+}
