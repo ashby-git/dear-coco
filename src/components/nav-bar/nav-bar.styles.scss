@@ -1,26 +1,18 @@
 .nav-bar-container {
-    width: auto;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 8vw;
-}
-
-.logo {
-    background: url(../../assets/logo.svg);
-    width: 112px;
-    height: 112px;
+    margin-left: 10vw;
 }
 
 .logo-container {
     margin-top: 8px;
 }
 
-.items {
+.nav-bar-item-container {
     margin-bottom: 20px;
 }
 
-.shop-button {
+.shop-button-container {
     margin-bottom: 30px;
 }
