@@ -1,0 +1,40 @@
+.japanese-text {
+    color: white;
+    font: yumincho;
+    font-size: 40px;
+    font-weight: bold;
+
+    width: 470px;
+    height: 132px;
+    text-shadow: 0px 0px 16px #8E8E8E29;
+    letter-spacing: 2.8px;
+    text-align: start;
+}
+
+.japanese-text-container {
+    margin-top: 200px;
+    margin-left: 245px;
+}
+
+.english-text {
+    color: white;
+    font: North Avellion;
+    font-size: 72px;
+
+    width: 715px;
+    height: 103px;
+    text-shadow: 0px 0px 16px #8E8E8E29;
+    letter-spacing: 5.1px;
+    text-align: start;
+    opacity: 0.8;
+    transform: matrix(0.99, -0.16, 0.16, 0.99, 0, 0);
+}
+
+.english-text-big {
+    font-size: 102px;
+}
+
+.english-text-container {
+    margin-top: 500px;
+    margin-left: 587px;
+}
