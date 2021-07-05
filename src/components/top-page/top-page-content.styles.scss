@@ -3,31 +3,29 @@
     font: yumincho;
     font-size: 40px;
     font-weight: bold;
-
-    width: 470px;
-    height: 132px;
     text-shadow: 0px 0px 16px #8E8E8E29;
     letter-spacing: 2.8px;
     text-align: start;
+    width: 37vw;
+    height: auto;
 }
 
 .japanese-text-container {
-    margin-top: 200px;
-    margin-left: 245px;
+    padding-top: 30vh;
+    margin-left: 19vw;
 }
 
 .english-text {
     color: white;
     font-family: NorthAvellion;
     font-size: 72px;
-
-    width: 715px;
-    height: 103px;
     text-shadow: 0px 0px 16px #8E8E8E29;
-    letter-spacing: 5.1px;
+    letter-spacing: 5px;
     text-align: start;
     opacity: 0.8;
     transform: matrix(0.99, -0.16, 0.16, 0.99, 0, 0);
+    width: 55vw;
+    height: auto;
 }
 
 .english-text-big {
@@ -35,6 +33,6 @@
 }
 
 .english-text-container {
-    margin-top: 500px;
-    margin-left: 587px;
+    margin-top: 22vh;
+    margin-left: 38vw;
 }
