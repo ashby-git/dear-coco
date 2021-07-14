@@ -1,24 +1,30 @@
 .japanese-text {
     color: white;
     font: yumincho;
-    font-size: 40px;
+    // font-size: 40px;
     font-weight: bold;
     text-shadow: 0px 0px 16px #8E8E8E29;
     letter-spacing: 2.8px;
     text-align: start;
     width: 37vw;
     height: auto;
+
+    // font-size: 2.5em;
+    font-size: 3vw;
 }
 
 .japanese-text-container {
-    padding-top: 30vh;
-    margin-left: 19vw;
+        padding-top: 30vh;
+        padding-left: 19vw;
+
+    // padding-top: 13%;
+    // padding-left: 19%;
 }
 
 .english-text {
     color: white;
     font-family: NorthAvellion;
-    font-size: 72px;
+    // font-size: 72px;
     text-shadow: 0px 0px 16px #8E8E8E29;
     letter-spacing: 5px;
     text-align: start;
@@ -26,13 +32,36 @@
     transform: matrix(0.99, -0.16, 0.16, 0.99, 0, 0);
     width: 55vw;
     height: auto;
+
+    // font-size: 4.5em;
+    font-size: 5.5vw;
 }
 
 .english-text-big {
-    font-size: 102px;
+    // font-size: 102px;
+
+
+    // font-size: 1.4em;
+    font-size: 8vw;
 }
 
 .english-text-container {
-    margin-top: 22vh;
-    margin-left: 38vw;
+    // margin-top: 22vh;
+    // margin-left: 38vw;
+
+    // padding-top: 28vh;
+    // padding-left: 38vw;
+
+    // margin-top: 15%;
+    // margin-left: 38%;
+
+    // padding-top: 15%;
+    // padding-left: 38%;
+
+    ///////////@at-root
+
+
+    padding-top: 23vh;
+    padding-left: 38.5vw; 
+    
 }
