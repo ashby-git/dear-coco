@@ -8,3 +8,17 @@ body, html {
   url("./assets/fonts/North Avellion DEMO.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "YuMincho";
+  src: local(YuMincho),
+  url("./assets/fonts/yumin.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "YuGothic";
+  src: local(YuGothic),
+  url("./assets/fonts/yugothib.ttf") format("truetype");
+  font-weight: normal;
+}
