@@ -1,0 +1,38 @@
+.japanese-text {
+    color: white;
+    font-family: YuMincho;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 0px 0px 16px #8E8E8E29;
+    letter-spacing: 2.8px;
+    text-align: start;
+    width: 37vw;
+    height: auto;
+}
+
+.japanese-text-container {
+    padding-top: 30vh;
+    padding-left: 19vw;
+}
+
+.english-text {
+    color: white;
+    font-family: NorthAvellion;
+    font-size: 5.5vw;
+    text-shadow: 0px 0px 16px #8E8E8E29;
+    letter-spacing: 5px;
+    text-align: start;
+    opacity: 0.8;
+    transform: matrix(0.99, -0.16, 0.16, 0.99, 0, 0);
+    width: 55vw;
+    height: auto;
+}
+
+.english-text-big {
+    font-size: 8vw;
+}
+
+.english-text-container {
+    padding-top: 23vh;
+    padding-left: 39vw; 
+}

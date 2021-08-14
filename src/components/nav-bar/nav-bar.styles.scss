@@ -1,8 +1,15 @@
+.fixed-position {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .nav-bar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10vw;
+    margin-left: 19vw;
 }
 
 .logo-container {
