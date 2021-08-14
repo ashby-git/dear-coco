@@ -1,11 +1,15 @@
 .page-break {
-    height: 180px;
+    // height: 180px;
+    height: 40vh;
     width:100%;
     color: white;
 }
 
 .page-container {
-    height: 961px;
+    // height: 960px;
+    // height: 160vh;
+    height: 120vh;
+
     width: 100vw;
 }
 
@@ -44,30 +48,20 @@
     letter-spacing: 0.8px;
     padding-left: 18vw;
     width: 31.5vw;
+    text-align: start;
 }
 
-.temp-button-container {
+.button-container {
     padding-left: 18vw;
     padding-top: 10vh;
 }
 
 .temp-button {
-    // width: 24vw;
     width: 306px;
     height: 66px;
-
-
     background-color: grey;
-    // padding-top: 12vh;
-    // padding-left: 18vw;
 }
-
-// .image-container {
-//     // margin-top: 268px;
-
-// }
 
 .image {
     width: 50vw;
-    // width: 100%;
-     }
+}

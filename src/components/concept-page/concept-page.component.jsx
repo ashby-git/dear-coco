@@ -47,7 +47,7 @@ const ConceptPage = () => (
                         <br />
                         地球と人に優しいコスメブランドです。
                     </div>
-                    <div className="temp-button-container">
+                    <div className="button-container">
                         <div className="temp-button" />
                     </div>
 
