@@ -2,6 +2,10 @@
 
 // }
 
+.top-section {
+    display: flex;
+}
+
 .number {
     font-size: 5.5em;
     font-family: 'Times New Roman', Times, serif;
@@ -14,6 +18,11 @@
     font-family: YuMincho;
     font-style: italic;
     color: #5A4537;
+    width: 22vw;
+
+    line-height: 6.6vh;
+    margin-top: 0.6vh;
+    margin-left: 2.3vw;
 }
 
 .line {
@@ -25,5 +34,5 @@
     font-family: YuGothic;
     text-align: left;
     color: #5A4537;
-    width: 32vw;
+    width: 31vw;
 }
