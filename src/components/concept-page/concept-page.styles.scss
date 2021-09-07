@@ -1,21 +1,17 @@
 .page-break {
-    // height: 180px;
     height: 40vh;
     width:100%;
     color: white;
 }
 
 .page-container {
-    // height: 960px;
-    // height: 160vh;
     height: 120vh;
-
     width: 100vw;
 }
 
 .title {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3.75vw;
+    font-size: 3em;
     color: #5A4537;
     letter-spacing: 4.32px;
     display: flex;
@@ -24,31 +20,36 @@
 
 .subheading {
     font-family: YuMincho;
-    font-size: 2vw;
+    font-size: 1.6em;
     color: #5A4537;
     padding-top: 13.5vh;
-    width: 36vw;
     padding-left: 18vw;
-
+    width: 35vw;
+    line-height: 2;
 }
 
 .two-halfs-container {
     display: flex;  
-    padding-top: 12vh;
+    padding-top: 8vh;
 }
 
 .left-half-container {
     width: 50vw;
 }
 
-.textbox {
+.textbox-container {
     font-family: YuGothic;
-    font-size: 1.25vw;
+    font-size: 1em;
     color: #5A4537;
     letter-spacing: 0.8px;
     padding-left: 18vw;
     width: 31.5vw;
     text-align: start;
+    line-height: 2;
+}
+
+.textbox1 {
+    margin-bottom: 7vh;
 }
 
 .button-container {
