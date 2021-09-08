@@ -1,0 +1,43 @@
+.background {
+    background-color: #F8F5F2;
+    height: 94vh;
+    width: 26vw;
+}
+
+.items-container {
+    margin-left: 2.5vw;
+}
+
+.card-heading {
+    font-size: 1.25em;
+    font-family: YuMincho;
+    color: #5A4537;
+    line-height: 2;
+    margin-top: 5vh;
+    margin-bottom: 3.5vh;
+    text-align: left;
+}
+
+.image {
+    border: 3px solid white;
+    margin-bottom: 3.5vh;
+
+    
+    height: 44.5vh;
+    width: 20.5vw;
+}
+
+.textbox {
+    font-size: 1em;
+    font-family: YuGothic;
+    color: #5A4537;
+    width: 20vw;
+    line-height: 2;
+    margin-bottom: 4vh;
+
+    text-align: left;
+}
+
+.standard-button {
+    width: 21vw;
+}
