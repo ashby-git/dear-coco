@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta {
+      display: block;
+      text-decoration: none;
+      font: YuGothic;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #5A4537;
+      background: white;
+      transition: 0.5s;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .cta:focus {
+     outline: none; 
+  }
+  
+  .cta:hover {
+      background-color: #FBC638;
+      color: white;
+  }
+
+  
+
+  
+
+
+  
