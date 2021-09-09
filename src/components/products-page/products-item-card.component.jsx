@@ -5,7 +5,7 @@ import './products-item-card.styles.scss';
 // import StandardButton from 
 
 const ProductsItemCard = (props) => (
-    <div className="background">
+    <div className="card-background">
         <div className="items-container">
 
             <div className="card-heading">
@@ -15,7 +15,10 @@ const ProductsItemCard = (props) => (
 
             <div className="image">{props.image}</div>
             <div className="textbox">{props.textbox}</div>
-            {/* < className="standard-button"StandardButton>商品ページへ</StandardButton*/}
+            <div className="button-container">
+                {/* < className="standard-button"StandardButton>商品ページへ</StandardButton*/}
+                <div className="tempo-standard-button"></div>
+            </div>
         </div>
 
     </div>
