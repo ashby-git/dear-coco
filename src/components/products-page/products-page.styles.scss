@@ -1,0 +1,61 @@
+.products-page-container {
+    height: 160vh;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #5A4537;
+    text-align: center;
+
+    margin-top: 15vh;
+
+    margin-bottom: 4vh;
+}
+
+.subtitle {
+    font-family: YuGothic;
+    font-size: 1em;
+    color: #5A4537;
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+.cards {
+    margin-bottom: 12vh;
+    display: flex;
+    justify-content: space-around;
+
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.tempo-card1 {
+    height: 96vh;
+    width: 26vw;
+    background-color: #F8F5F2;
+}
+
+.tempo-card2 {
+    height: 96vh;
+    width: 26vw;
+    background-color: #F8F5F2;
+}
+
+.tempo-card3 {
+    height: 96vh;
+    width: 26vw;
+    background-color: #F8F5F2;
+}
+
+.tempo-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tempo-button {
+    height: 11vh;
+    width: 15vw;
+    background-color: grey;
+}
