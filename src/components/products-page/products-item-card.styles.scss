@@ -1,42 +1,42 @@
 .card-background {
     background-color: #F8F5F2;
     opacity: 0.9;
-    height: 96vh;
-    width: 26vw;
+    height: 560px;
+    width: 331px;
 }
 
 .items-container {
-    margin-left: 2.5vw;
+    margin-left: 30px;
 }
 
 .card-heading {
-    font-size: 1.25em;
+    font-size: 20px;
     font-family: YuMincho;
     color: #5A4537;
-    line-height: 2;
-    padding-top: 4vh;
-    margin-bottom: 3vh;
+    line-height: 1.6;
     text-align: left;
+    padding-top: 32px;
+    margin-bottom: 18px;
 }
 
 .image {
     border: 3px solid white;
-    margin-bottom: 3vh;
-    height: 44.5vh;
-    width: 20.5vw;
+    height: 266px;
+    width: 266px;
+    margin-bottom: 18px;
 }
 
 .textbox {
-    font-size: 1em;
+    font-size: 16px;
     font-family: YuGothic;
     color: #5A4537;
-    width: 20vw;
-    line-height: 2;
-    margin-bottom: 4vh;
+    line-height: 1.6;
     text-align: left;
+    width: 266px;
+    margin-bottom: 24px;
 }
 
-// .standard-button {
+// TODO .standard-button {
     //     width: 21vw;
     // }
     
@@ -45,8 +45,8 @@
     // }
         
 .tempo-standard-button {
-    width: 21vw;
-    height: 4.7vh;
+    width: 266px;
+    height: 28px;
     background-color: grey;
             
 }
