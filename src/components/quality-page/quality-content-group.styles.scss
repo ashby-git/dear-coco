@@ -1,3 +1,8 @@
+.content-group-container {
+    white-space: pre-wrap;
+    width: 410px;
+}
+
 .top-section {
     display: flex;
 }
@@ -14,25 +19,22 @@
     font-family: YuMincho;
     font-style: italic;
     color: #5A4537;
-    width: 22vw;
-    line-height: 6.6vh;
+    line-height: 1.5;
     margin-top: 0.6vh;
     margin-left: 2.3vw;
 }
 
 .line {
     border-top: 2px solid #BFB4AD;
-    width: 31vw;
     margin-top: 1vw;
     margin-bottom: 1.5vw;
 }
 
-.textbox {
+.quality-content-textbox {
     font-size: 1em;
     font-family: YuGothic;
     text-align: left;
     color: #5A4537;
-    width: 30.5vw;
     margin-left: 1vw;
     line-height: 5vh;
 }

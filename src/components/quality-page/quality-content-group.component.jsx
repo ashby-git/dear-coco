@@ -3,13 +3,13 @@ import React from 'react';
 import './quality-content-group.styles.scss';
 
 const QualityContentGroup = (props) => (
-    <div className="container">
+    <div className="content-group-container">
         <div className="top-section">
             <div className="number">{props.number}</div>
-            <div className="subheading">{props.subheading}</div>
+            <p className="subheading">{props.subheading}</p>
         </div>
         <div className="line" />
-        <div className="textbox">{props.textbox}</div>
+        <p className="quality-content-textbox">{props.textbox}</p>
     </div>
 );
 
