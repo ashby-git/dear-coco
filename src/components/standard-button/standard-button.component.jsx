@@ -5,7 +5,7 @@ import './standard-button.styles.scss';
 const StandardButton = (props) => (
 
     <div>
-        <div className="wrapper">
+        <div style={{ height: props.height, width: props.width }} className="wrapper">
             <div className="cta">
                 <span>{props.children}</span>
             </div>
