@@ -8,7 +8,7 @@
     font-size: 3em;
     color: #5A4537;
     text-align: center;
-    margin-top: 188px;
+    padding-top: 188px;
 }
 
 .news-subheading {
@@ -17,12 +17,39 @@
     color: #5A4537;
     text-align: center;
     margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.container-container {
+    display: flex;
+    justify-content: center;
 }
 
 .news-content-group-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 200px;
-    
+    width: 980px;
+}
+
+.news-content-group {
+    height: 126px;
+    width: 465px;
+
+// TODO check H&W from design
+
+    background-color: grey;
+    margin-bottom: 40px;
+}
+
+.tempo-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tempo-anim-button {
+    margin-top: 100px;
+    width: 205px;
+    height: 66px;
+    background-color: grey;
 }
