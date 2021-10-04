@@ -1,0 +1,28 @@
+.news-page-background {
+    background-color: #F8F5F2;
+    height: 1228px;
+}
+
+.news-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #5A4537;
+    text-align: center;
+    margin-top: 188px;
+}
+
+.news-subheading {
+    font-family: YuGothic;
+    font-size: 1em;
+    color: #5A4537;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.news-content-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 200px;
+    
+}
