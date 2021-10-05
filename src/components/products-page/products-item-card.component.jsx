@@ -2,7 +2,7 @@ import React from 'react';
 
 import './products-item-card.styles.scss';
 
-// TODO import StandardButton from 
+// TODO import StandardButton from  
 
 const ProductsItemCard = (props) => (
     <div className="card-background">
