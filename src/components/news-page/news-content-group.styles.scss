@@ -1,42 +1,60 @@
 .news-content-group-background {
     background-color: #F8F5F2;
     opacity: 0.9;
-    height: 560px;
-    width: 331px;
-    // TODO check h&w are correct using design
+    height: 140px;
+    width:  500px;
+    display: flex;
+    
+    &:hover {
+        background-color: white;
+    }
 }
 
-.news-content-group-background:hover {
-    background-color: white;
-    // TODO change hover to be included in background {}
+.two-sides-container {
+   display: flex; 
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
 }
 
 .image {
     height: 107px;
     width: 160px;
-    // TODO add padding top left or use flexbox
     background-color: black;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.text-group-container {
+    display: flex;
+    align-items: center;
 }
 
 .article {
     font-family: YuMincho;
     font-size: 1em;
     color: #5A4537;
-    width: 290px;
+    width: 289px;
 }
 
 .date {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     font-style: italic;
-    // TODO find what color it is
+    color: #BFB4AD;
+    margin-right: 25px;
 }
 
 .link {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     font-style: italic;
-    color: yellow;
-    // TODO change font color to same as std button hover color
+    color: #CEBB35;
 }
 
+.bottom-text-group {
+    display: flex;
+    margin-top: 16px;
+}
