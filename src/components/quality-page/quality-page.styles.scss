@@ -8,7 +8,7 @@
     width:100%;
 }
 
-.title {
+.qp-title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
     color: #5A4537;
@@ -16,7 +16,7 @@
     margin-bottom: 4vh;
 }
 
-.subheading {
+.qp-subheading {
     font-family: YuGothic;
     font-size: 1em;
     color: #5A4537;
@@ -25,8 +25,8 @@
 }
 
 .row {
-        display: flex;
-        margin-bottom: 11.5vh;
+    display: flex;
+    margin-bottom: 11.5vh;
 }
 
 .image {
@@ -38,19 +38,22 @@
 }
 
 .quality-content-group1 {
-    margin-right: 40vw;
-    margin-top: 10vh;
+    margin-left: 4.5vw;
+    margin-top: 8vh;
 }
 
 .quality-content-group2 {
-    margin-right: 20vw;
-    margin-top: 10vh;
+    float: right;
+    margin-right: 4.5vw;
+    margin-top: 8vh;
 }
 
 .quality-content-group3 {
-    margin-right: 40vw;
-    margin-top: 10vh;
+    margin-left: 4.5vw;
+    margin-top: 8vh;
 }
+
+
 
 .temp-button {
     width: 306px;
