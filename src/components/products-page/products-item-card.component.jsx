@@ -2,7 +2,7 @@ import React from 'react';
 
 import './products-item-card.styles.scss';
 
-// TODO import StandardButton from  
+import StandardButton from '../../components/standard-button/standard-button.component';
 
 const ProductsItemCard = (props) => (
     <div className="card-background">
@@ -13,10 +13,7 @@ const ProductsItemCard = (props) => (
             </div>
             <img className="image" src={props.image} alt="img" />
             <div className="textbox">{props.textbox}</div>
-            <div className="button-container">
-                {/* TODO < className="standard-button"StandardButton>商品ページへ</StandardButton*/}
-                <div className="tempo-standard-button"></div>
-            </div>
+            <StandardButton width="266px" height="28px">商品ページへ</StandardButton>
         </div>
 
     </div>
