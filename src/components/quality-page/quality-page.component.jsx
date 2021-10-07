@@ -3,6 +3,7 @@ import React from 'react';
 import './quality-page.styles.scss';
 
 import QualityContentGroup from './quality-content-group.component';
+import AnimatedButton from '../../components/animated-button/animated-button.component';
 
 import qualityImage1 from '../../assets/quality_img_01.jpg'
 import qualityImage2 from '../../assets/quality_img_02.jpg'
@@ -61,8 +62,8 @@ const QualityPage = () => (
 
         </div>
 
-        <div className="temp-button-container">
-            <div className="temp-button">DEAR COCOのこだわり</div>
+        <div className="qp-button-container">
+            <AnimatedButton>DEAR COCOのこだわり</AnimatedButton>
         </div>
     </div>
 );
