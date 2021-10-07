@@ -1,0 +1,40 @@
+.content-group-container {
+    white-space: pre-wrap;
+    width: 400px;
+}
+
+.top-section {
+    display: flex;
+}
+
+.number {
+    font-size: 5.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #BFB4AD;
+}
+
+.subheading {
+    font-size: 1.75em;
+    font-family: YuMincho;
+    font-style: italic;
+    color: #5A4537;
+    line-height: 1.5;
+    margin-top: 3.5px;
+    margin-left: 29px;
+}
+
+.line {
+    border-top: 3px solid #BFB4AD;
+    margin-top: 13px;
+    margin-bottom: 19px;
+}
+
+.quality-content-textbox {
+    font-size: 1em;
+    font-family: YuGothic;
+    text-align: left;
+    color: #5A4537;
+    line-height: 2;
+    margin-left: 13px;
+}
