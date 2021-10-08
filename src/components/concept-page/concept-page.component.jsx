@@ -1,24 +1,26 @@
 import React from 'react';
-import image from '../../assets/concept_bg.png'
+
+import conceptImage from '../../assets/concept_bg.png';
+import AnimatedButton from '.././animated-button/animated-button.component';
 
 import './concept-page.styles.scss';
 
 const ConceptPage = () => (
-    <div className="full-container">
+    <div className="cp-full-container">
 
-        <div className="page-break" />
-        <div className="page-container">
+        <div className="cp-page-break" />
+        <div className="cp-page-container">
 
-            <div className="title">DEAR COCO is...</div>
-            <div className="subheading">
-                オーガニックココナッツから生まれた
+            <div className="cp-title">DEAR COCO is...</div>
+            <div className="cp-subheading">
+                オーガニックココナッツから生まれた <br />
                 地球と人に優しいコスメブランドです
             </div>
 
-            <div className="two-halfs-container">
-                <div className="left-half-container">
-                    <div className="textbox-container">
-                        <div className="textbox1">
+            <div className="cp-two-halfs-container">
+                <div className="cp-left-half-container">
+                    <div className="cp-textbox-container">
+                        <div className="cp-textbox1">
                             生命の木とも呼ばれるココヤシの木。
                             <br />
                             その実から採れるココナッツオイルは栄養豊富で、
@@ -30,7 +32,7 @@ const ConceptPage = () => (
                             タイ産ココナッツのみを厳選。
                         </div>
 
-                        <div className="textbox2">
+                        <div className="cp-textbox2">
                             こだわりのココナッツオイルと
                             <br />
                             自然由来の成分のみを使用した
@@ -39,11 +41,11 @@ const ConceptPage = () => (
                         </div>
                     </div>
 
-                    <div className="button-container">
-                        <div className="temp-button" />
+                    <div className="cp-button-container">
+                        <AnimatedButton>ココナッツの力について</AnimatedButton>
                     </div>
                 </div>
-                <img className="image" src={image} alt="img" />
+                <img className="cp-image" src={conceptImage} alt="img" />
             </div>
         </div>
     </div>

@@ -1,15 +1,16 @@
-.page-break {
+.cp-page-break {
     height: 40vh;
     width:100%;
     color: white;
 }
 
-.page-container {
+.cp-page-container {
     height: 120vh;
     width: 100vw;
+    text-align: start;
 }
 
-.title {
+.cp-title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
     color: #5A4537;
@@ -18,52 +19,51 @@
     justify-content: center;
 }
 
-.subheading {
+.cp-subheading {
     font-family: YuMincho;
     font-size: 1.6em;
     color: #5A4537;
     padding-top: 13.5vh;
     padding-left: 18vw;
-    width: 35vw;
     line-height: 2;
 }
 
-.two-halfs-container {
+.cp-two-halfs-container {
     display: flex;  
     padding-top: 8vh;
 }
 
-.left-half-container {
+.cp-left-half-container {
     width: 50vw;
 }
 
-.textbox-container {
+.cp-textbox-container {
     font-family: YuGothic;
     font-size: 1em;
     color: #5A4537;
     letter-spacing: 0.8px;
     padding-left: 18vw;
-    width: 31.5vw;
     text-align: start;
     line-height: 2;
 }
 
-.textbox1 {
+.cp-textbox1 {
     margin-bottom: 7vh;
 }
 
-.button-container {
+.cp-button-container {
     padding-left: 18vw;
     padding-top: 10vh;
+    float: left;
 }
 
-.temp-button {
+.cp-temp-button {
     width: 306px;
     height: 66px;
     background-color: grey;
 }
 
-.image {
+.cp-image {
     width: 50vw;
     object-fit: scale-down;
 }
