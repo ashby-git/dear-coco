@@ -1,0 +1,24 @@
+.message-container {
+    padding-top: 180px;
+    height: 1103px;
+    background-color: #F8F5F2;
+}
+
+.message-background {
+    background-image: url(../../assets/message_bg.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position: center; 
+    background-position: bottom; 
+}
+
+.message-card {
+    width: 880px;
+    height: 743px;
+    background-color: white;
+    opacity: 0.9;
+
+    // display: flex;
+    // justify-content: center;
+}
