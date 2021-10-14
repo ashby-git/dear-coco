@@ -3,22 +3,24 @@ import React from 'react';
 import './news-content-group.styles.scss';
 
 const NewsContentGroup = (props) => (
-    <div className="news-content-group-background">
-        <div className="two-sides-container">
-            <div className="image-container">
-                <img className="image" src={props.image} alt="img" />
-            </div>
-            <div className="text-group-container">
-                <div className="text-group">
-                    <div className="article">{props.article}</div>
-                    <div className="bottom-text-group">
-                        <div className="date">{props.date}</div>
-                        <div className="link">{props.link}</div>
+    <a href={props.url}>
+        <div className="news-content-group-background">
+            <div className="two-sides-container">
+                <div className="image-container">
+                    <img className="image" src={props.image} alt="img" />
+                </div>
+                <div className="text-group-container">
+                    <div className="text-group">
+                        <p className="article">{props.article}</p>
+                        <div className="bottom-text-group">
+                            <p className="date">{props.date}</p>
+                            <p className="media-type">{props.mediaType}</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </a>
 );
 
 export default NewsContentGroup;
