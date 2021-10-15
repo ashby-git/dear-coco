@@ -1,14 +1,21 @@
 import React from 'react';
 
+import footerLogo from '../../assets/footer-logo.svg';
+import fbLogo from '../../assets/f_logo_white.svg';
+import twitterLogo from '../../assets/twitter_logo_white.svg';
+
+
 import './footer.styles.scss';
 
 const Footer = () => (
     <div className="footer-background">
 
         <div className="footer-left-side">
-            <div className="logo" />
-            <div className="logo" />
-            <div className="logo" />
+            <img className="footer-logo" src={footerLogo} alt="footer logo" />
+            <div className="smaller-logos">
+                <img className="fb-logo" src={fbLogo} alt="footer logo" />
+                <img src={twitterLogo} alt="footer logo" />
+            </div>
         </div>
 
         <div className="footer-middle">
@@ -54,17 +61,22 @@ const Footer = () => (
 
         <div className="footer-right-side">
             <div className="top-button-container">
-                <div className="arrow" />
+
+
+
+                <div className="arrow">{'\u25B2'}</div>
+
+
+                {/* <a href="arrow">{'\u25B2'}</a> */}
+                {/* <div className="arrow">{'U+25B2'}</div> */}
                 <div className="top">TOP</div>
             </div>
         </div>
 
         <div className="footer-bottom">
-            <div className="footer-line" />
+            <hr />
 
-            <div className="bottom-left1">PRIVACYPolicy</div>
-            <div className="bottom-left2">Terms of use</div>
-
+            <div className="bottom-left">PRIVACYPOLICY | Terms of use</div>
             <div className="bottom-right">©︎DEAR COCO INC. All rights reserved.</div>
 
         </div>

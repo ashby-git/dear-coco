@@ -1,0 +1,90 @@
+.footer-background {
+    height: 565px;
+    background-color: #604F43;
+
+
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 56px;
+    margin-left: 204px;
+    margin-right: 151px;
+}
+
+.smaller-logos {
+    margin-left: 212px;
+    margin-top: 40px;
+}
+
+.fb-logo {
+    margin-right: 24px;
+}
+
+.footer-middle {
+    height: 447px;
+    
+    display: flex;
+    // flex-direction: column;
+    // flex-flow: column wrap;
+}
+
+.page-info-group {
+    width: 262px;
+    margin-top: 64px;
+
+    height: 149px;
+
+    display: flex;
+    // flex-direction: column;
+    flex-flow: column wrap;
+}
+
+.page-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.page-content {
+    font-family: YuGothicMedium;
+    font-size: 0.75em;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.arrow {
+    color: white;
+}
+
+.top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    color: white;
+    // text-align: center;
+
+    &:hover {
+        color: #CEBB35;
+    }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    // border: 0;
+    // border-top: 1px solid white;
+    border: 1px solid white;
+}
+
+.bottom-left {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    color: white;
+}
+
+.bottom-right {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    color: white;
+}
