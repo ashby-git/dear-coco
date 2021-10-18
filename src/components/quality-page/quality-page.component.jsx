@@ -24,7 +24,7 @@ const QualityPage = () => (
             <div className="row">
                 <img className="image" src={qualityImage1} alt="img" />
                 <div className="quality-content-group-container">
-                    <div className="quality-content-group1">
+                    <div className="quality-content-group-left">
                         <QualityContentGroup
                             number="01"
                             subheading="100%オーガニックの ココナッツのみを使用"
@@ -36,7 +36,7 @@ const QualityPage = () => (
 
             <div className="row">
                 <div className="quality-content-group-container">
-                    <div className="quality-content-group2">
+                    <div className="quality-content-group-right">
                         <QualityContentGroup
                             number="02"
                             subheading="天然由来素材100%"
@@ -50,7 +50,7 @@ const QualityPage = () => (
             <div className="row">
                 <img className="image" src={qualityImage3} alt="img" />
                 <div className="quality-content-group-container">
-                    <div className="quality-content-group3">
+                    <div className="quality-content-group-left">
                         <QualityContentGroup
                             number="03"
                             subheading="環境への取り組み"

@@ -1,11 +1,11 @@
 .quality-page-container {
     background-color: #F8F5F2;
-    height: 320vh;
+    height: 290vh;
+    width: 100%;
 }
 
 .page-break {
-    height: 30vh;
-    width:100%;
+    height: 15vh;
 }
 
 .qp-title {
@@ -13,7 +13,8 @@
     font-size: 3em;
     color: #5A4537;
     text-align: center;
-    margin-bottom: 4vh;
+    letter-spacing: 4.32px;
+    margin-bottom: 23px;
 }
 
 .qp-subheading {
@@ -21,12 +22,13 @@
     font-size: 1em;
     color: #5A4537;
     text-align: center;
-    margin-bottom: 13vh;
+    letter-spacing: 0.8px;
+    margin-bottom: 77px;
 }
 
 .row {
     display: flex;
-    margin-bottom: 11.5vh;
+    margin-bottom: 77px;
 }
 
 .image {
@@ -37,19 +39,14 @@
     width: 50vw;
 }
 
-.quality-content-group1 {
+.quality-content-group-left {
     margin-left: 4.5vw;
     margin-top: 8vh;
 }
 
-.quality-content-group2 {
+.quality-content-group-right {
     float: right;
     margin-right: 4.5vw;
-    margin-top: 8vh;
-}
-
-.quality-content-group3 {
-    margin-left: 4.5vw;
     margin-top: 8vh;
 }
 
