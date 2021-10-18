@@ -9,22 +9,31 @@
 
 .footer-logo {
     margin-top: 56px;
-    margin-left: 204px;
-    margin-right: 151px;
+    // margin-left: 204px;
+    // margin-right: 151px;
+
+    margin-left: 40%;
+    // margin-right: 11.8%;
 }
 
 .smaller-logos {
-    margin-left: 212px;
+    // margin-left: 212px;
     margin-top: 40px;
+
+    margin-left: 41%;
 }
 
 .fb-logo {
-    margin-right: 24px;
+    // margin-right: 24px;
+
+    margin-right: 9%;
 }
 
 .footer-middle {
     height: 447px;
-    width: 786px;
+    // width: 786px;
+
+    width: 61.4%;
 }
 
 .page-info-group-container {
@@ -35,11 +44,13 @@
 }
 
 .page-info-group {
-    width: 262px;
+    // width: 262px;
     height: 149px;
     display: flex;
     flex-flow: column wrap;
     margin-bottom: 16px;
+
+    width: 20.5%;
 }
 
 .page-name {
@@ -56,10 +67,29 @@
     margin-bottom: 24px;
 }
 
+
+
+
+
+
+.footer-left-side {
+    width: 35.9%;
+}
+
+.footer-right-side {
+    width: 15.2%;
+}
+
+
+
+
+
 .top-button-container {
     margin-top: 64px;
     height: auto;
     width: auto;
+
+    float: left;
 }
 
 .top-button-container:hover .top {
