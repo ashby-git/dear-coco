@@ -1,8 +1,9 @@
 .footer-background {
     height: 565px;
     background-color: #604F43;
+}
 
-
+.footer-top-section {
     display: flex;
 }
 
@@ -23,21 +24,22 @@
 
 .footer-middle {
     height: 447px;
-    
+    width: 786px;
+}
+
+.page-info-group-container {
+    height: 330px;
     display: flex;
-    // flex-direction: column;
-    // flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin-top: 64px;
 }
 
 .page-info-group {
     width: 262px;
-    margin-top: 64px;
-
     height: 149px;
-
     display: flex;
-    // flex-direction: column;
     flex-flow: column wrap;
+    margin-bottom: 16px;
 }
 
 .page-name {
@@ -54,27 +56,43 @@
     margin-bottom: 24px;
 }
 
+.top-button-container {
+    margin-top: 64px;
+    height: auto;
+    width: auto;
+}
+
+.top-button-container:hover .top {
+    color: #CEBB35;
+    cursor: pointer;
+}
+
+.top-button-container:hover .arrow {
+    color: #CEBB35;
+    cursor: pointer;
+}
+
 .arrow {
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .top {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     color: white;
-    // text-align: center;
-
-    &:hover {
-        color: #CEBB35;
-    }
+    text-align: center;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    // border: 0;
-    // border-top: 1px solid white;
-    border: 1px solid white;
+.line {
+    border-top: 3px solid white;
+}
+
+.footer-bottom-text-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
 }
 
 .bottom-left {
