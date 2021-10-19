@@ -13,8 +13,8 @@ import './news-page.styles.scss';
 
 const NewsPage = () => (
     <div className="news-page-background">
-        <div className="news-title">NEWS</div>
-        <div className="news-subheading">お知らせ</div>
+        <p className="news-title">NEWS</p>
+        <p className="news-subheading">お知らせ</p>
 
         <div className="container-container">
             <div className="news-content-group-container">
