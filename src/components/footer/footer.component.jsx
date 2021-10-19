@@ -22,42 +22,42 @@ const Footer = () => (
             <div className="footer-middle">
                 <div className="page-info-group-container">
                     <div className="page-info-group">
-                        <div className="page-name">CONCEPT</div>
-                        <div className="page-content">DEAR COCOとは</div>
-                        <div className="page-content">ココナッツの力</div>
-                        <div className="page-content">ブランドストーリー</div>
+                        <p className="page-name">CONCEPT</p>
+                        <p className="page-content">DEAR COCOとは</p>
+                        <p className="page-content">ココナッツの力</p>
+                        <p className="page-content">ブランドストーリー</p>
                     </div>
 
                     <div className="page-info-group">
-                        <div className="page-name">QUALITY</div>
-                        <div className="page-content">フェアトレードについて</div>
-                        <div className="page-content">主な成分</div>
-                        <div className="page-content">SDGsへの取り組み</div>
+                        <p className="page-name">QUALITY</p>
+                        <p className="page-content">フェアトレードについて</p>
+                        <p className="page-content">主な成分</p>
+                        <p className="page-content">SDGsへの取り組み</p>
                     </div>
 
                     <div className="page-info-group">
-                        <div className="page-name">PRODUCTS</div>
-                        <div className="page-content">商品一覧</div>
-                        <div className="page-content">新商品ピックアップ</div>
+                        <p className="page-name">PRODUCTS</p>
+                        <p className="page-content">商品一覧</p>
+                        <p className="page-content">新商品ピックアップ</p>
                     </div>
 
                     <div className="page-info-group">
-                        <div className="page-name">SHOPS</div>
-                        <div className="page-content">取扱店舗一覧</div>
-                        <div className="page-content">オンラインショップ</div>
-                        <div className="page-content">ショップガイド</div>
+                        <p className="page-name">SHOPS</p>
+                        <p className="page-content">取扱店舗一覧</p>
+                        <p className="page-content">オンラインショップ</p>
+                        <p className="page-content">ショップガイド</p>
                     </div>
 
                     <div className="page-info-group">
-                        <div className="page-name">NEWS</div>
-                        <div className="page-content">新着情報</div>
-                        <div className="page-content">メディア掲載実績</div>
+                        <p className="page-name">NEWS</p>
+                        <p className="page-content">新着情報</p>
+                        <p className="page-content">メディア掲載実績</p>
                     </div>
 
                     <div className="page-info-group">
-                        <div className="page-name">CONTACT</div>
-                        <div className="page-content">FAQ - よくある質問</div>
-                        <div className="page-content">問い合わせフォーム</div>
+                        <p className="page-name">CONTACT</p>
+                        <p className="page-content">FAQ - よくある質問</p>
+                        <p className="page-content">問い合わせフォーム</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => (
             <div className="footer-right-side">
                 <div className="top-button-container">
                     <div className="arrow">{'\u25B2'}</div>
-                    <div className="top">TOP</div>
+                    <p className="top">TOP</p>
                 </div>
             </div>
         </div>
@@ -73,8 +73,8 @@ const Footer = () => (
         <div className="footer-bottom">
             <div className="line" />
             <div className="footer-bottom-text-container">
-                <div className="bottom-left">PRIVACYPOLICY | Terms of use</div>
-                <div className="bottom-right">©︎DEAR COCO INC. All rights reserved.</div>
+                <p className="bottom-left">PRIVACYPOLICY | Terms of use</p>
+                <p className="bottom-right">©︎DEAR COCO INC. All rights reserved.</p>
             </div>
         </div>
 
