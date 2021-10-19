@@ -31,32 +31,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    // width: 980px;
-
     width: 1050px;
 }
 
-.news-content-group {
-    // height: 126px;
-    // width: 465px;
-
-    height: 140px;
-    width:  500px;
-
-// TODO check H&W from design
-
-    background-color: grey;
-    margin-bottom: 40px;
-}
-
-.tempo-button-container {
+.news-button-container {
     display: flex;
     justify-content: center;
-}
-
-.tempo-anim-button {
     margin-top: 100px;
-    width: 205px;
-    height: 66px;
-    background-color: grey;
 }
