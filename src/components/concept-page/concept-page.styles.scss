@@ -1,12 +1,10 @@
 .cp-page-break {
-    height: 40vh;
-    width:100%;
+    height: 180px;
     color: white;
 }
 
 .cp-page-container {
-    height: 120vh;
-    width: 100vw;
+    height: 961px;
     text-align: start;
 }
 
@@ -17,53 +15,49 @@
     letter-spacing: 4.32px;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .cp-subheading {
     font-family: YuMincho;
     font-size: 1.6em;
     color: #5A4537;
-    padding-top: 13.5vh;
-    padding-left: 18vw;
     line-height: 2;
+    padding-bottom: 53px;
 }
 
 .cp-two-halfs-container {
     display: flex;  
-    padding-top: 8vh;
 }
 
 .cp-left-half-container {
-    width: 50vw;
+    width: 50%;
+}
+
+.left-half-elements-group {
+    float: right;
 }
 
 .cp-textbox-container {
-    font-family: YuGothic;
+    font-family: YuGothicMedium;
     font-size: 1em;
     color: #5A4537;
     letter-spacing: 0.8px;
-    padding-left: 18vw;
     text-align: start;
     line-height: 2;
 }
 
 .cp-textbox1 {
-    margin-bottom: 7vh;
+    margin-bottom: 40px;
 }
 
 .cp-button-container {
-    padding-left: 18vw;
-    padding-top: 10vh;
+    padding-top: 60px;
     float: left;
 }
 
-.cp-temp-button {
-    width: 306px;
-    height: 66px;
-    background-color: grey;
-}
-
-.cp-image {
-    width: 50vw;
+.cp-image-container {
+    width: 50%;
     object-fit: scale-down;
+    margin-top: 90px;
 }
