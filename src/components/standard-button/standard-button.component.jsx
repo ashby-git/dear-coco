@@ -4,13 +4,11 @@ import './standard-button.styles.scss';
 
 const StandardButton = (props) => (
 
-    <div>
-        <div style={{ height: props.height, width: props.width }} className="wrapper">
-            <div className="cta">
-                <span>{props.children}</span>
-            </div>
+    <a href={props.url} style={{ height: props.height, width: props.width }} className="wrapper">
+        <div className="cta">
+            <p>{props.children}</p>
         </div>
-    </div>
+    </a>
 
 );
 
