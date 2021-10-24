@@ -5,6 +5,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 .cta {
@@ -28,8 +29,9 @@
 }
 
 .cta:hover {
-    color: #FBC638;
-    border: 1px solid #FBC638;
+    color: #CCB84B;
+    border: 1px solid #CCB84B;
+    cursor: pointer;
 }
 
 .cta span:nth-child(2) {
@@ -81,7 +83,8 @@ path.two {
         fill: white;
     }
     50% {
-        fill: #FBC638;
+        fill: #CCB84B;
+
     }
     100% {
         fill: white;
