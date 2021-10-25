@@ -22,3 +22,10 @@ body, html {
   url("./assets/fonts/yugothib.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "YuGothicMedium";
+  src: local(YuGothicMedium),
+  url("./assets/fonts/yugothic-medium.otf") format("opentype");
+  font-weight: normal;
+}
