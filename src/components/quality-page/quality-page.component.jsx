@@ -22,7 +22,7 @@ const QualityPage = () => (
         <div className="content-layout">
 
             <div className="row">
-                <img className="image" src={qualityImage1} alt="img" />
+                <img src={qualityImage1} alt="img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup
@@ -44,11 +44,11 @@ const QualityPage = () => (
                         />
                     </div>
                 </div>
-                <img className="image" src={qualityImage2} alt="img" />
+                <img src={qualityImage2} alt="img" />
             </div>
 
             <div className="row">
-                <img className="image" src={qualityImage3} alt="img" />
+                <img src={qualityImage3} alt="img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup
@@ -63,7 +63,9 @@ const QualityPage = () => (
         </div>
 
         <div className="qp-button-container">
-            <AnimatedButton>DEAR COCOのこだわり</AnimatedButton>
+            <AnimatedButton url="https://en.wikipedia.org/wiki/Coconut">
+                DEAR COCOのこだわり
+            </AnimatedButton>
         </div>
     </div>
 );

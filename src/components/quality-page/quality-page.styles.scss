@@ -1,11 +1,9 @@
 .quality-page-container {
     background-color: #F8F5F2;
-    height: 290vh;
-    width: 100%;
 }
 
 .page-break {
-    height: 15vh;
+    height: 180px;
 }
 
 .qp-title {
@@ -31,26 +29,30 @@
     margin-bottom: 77px;
 }
 
-.image {
-    width: 50vw;
+img {
+    width: 50%;
+    object-fit: cover;
 }
 
 .quality-content-group-container {
-    width: 50vw;
+    width: 50%;
 }
 
 .quality-content-group-left {
-    margin-left: 4.5vw;
-    margin-top: 8vh;
+    margin-left: 55px;
+    margin-top: 50px;
+
 }
 
 .quality-content-group-right {
     float: right;
-    margin-right: 4.5vw;
-    margin-top: 8vh;
+    margin-right: 55px;
+    margin-top: 50px;
+    
 }
 
 .qp-button-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 180px;
 }
