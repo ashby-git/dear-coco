@@ -22,6 +22,8 @@
     line-height: 1.5;
     margin-top: 3.5px;
     margin-left: 29px;
+    display: flex;
+    align-items: center;
 }
 
 .line {
@@ -32,7 +34,7 @@
 
 .quality-content-textbox {
     font-size: 1em;
-    font-family: YuGothic;
+    font-family: YuGothicMedium;
     text-align: left;
     color: #5A4537;
     line-height: 2;
