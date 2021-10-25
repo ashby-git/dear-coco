@@ -4,7 +4,6 @@
 }
 
 .cp-page-container {
-    height: 961px;
     text-align: start;
 }
 
@@ -28,10 +27,12 @@
 
 .cp-two-halfs-container {
     display: flex;  
+    padding-bottom: 200px;
 }
 
 .cp-left-half-container {
     width: 50%;
+    padding-left: 100px;
 }
 
 .left-half-elements-group {

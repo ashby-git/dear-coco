@@ -11,18 +11,18 @@ const ConceptPage = () => (
         <div className="cp-page-break" />
         <div className="cp-page-container">
 
-            <div className="cp-title">DEAR COCO is...</div>
+            <p className="cp-title">DEAR COCO is...</p>
 
             <div className="cp-two-halfs-container">
                 <div className="cp-left-half-container">
                     <div className="left-half-elements-group">
-                        <div className="cp-subheading">
+                        <p className="cp-subheading">
                             オーガニックココナッツから生まれた <br />
                             地球と人に優しいコスメブランドです
-                        </div>
+                        </p>
 
                         <div className="cp-textbox-container">
-                            <div className="cp-textbox1">
+                            <p className="cp-textbox1">
                                 生命の木とも呼ばれるココヤシの木。
                                 <br />
                                 その実から採れるココナッツオイルは栄養豊富で、
@@ -32,19 +32,21 @@ const ConceptPage = () => (
                                 DEAR COCOは、100%オーガニック栽培の
                                 <br />
                                 タイ産ココナッツのみを厳選。
-                            </div>
+                            </p>
 
-                            <div className="cp-textbox2">
+                            <p className="cp-textbox2">
                                 こだわりのココナッツオイルと
                                 <br />
                                 自然由来の成分のみを使用した
                                 <br />
                                 地球と人に優しいコスメブランドです。
-                            </div>
+                            </p>
                         </div>
 
                         <div className="cp-button-container">
-                            <AnimatedButton>ココナッツの力について</AnimatedButton>
+                            <AnimatedButton url="https://en.wikipedia.org/wiki/Coconut">
+                                ココナッツの力について
+                            </AnimatedButton>
                         </div>
                     </div>
                 </div>
