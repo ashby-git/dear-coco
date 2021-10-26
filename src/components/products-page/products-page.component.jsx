@@ -7,7 +7,7 @@ import AnimatedButton from '../animated-button/animated-button.component';
 
 import productsImage1 from '../../assets/products_img_01.jpg'
 import productsImage2 from '../../assets/products_img_02.jpg'
-import productsImage3 from '../../assets/products_img_01.jpg'
+import productsImage3 from '../../assets/products_img_03.jpg'
 import productsLeaf from '../../assets/products_bg_left.png'
 
 const ProductsPage = () => (
