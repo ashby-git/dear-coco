@@ -2,13 +2,13 @@
     box-sizing: border-box;
   }
   
-  .wrapper {
+  .std-wrapper {
     display: flex;
     justify-content: center;
     position: relative;
   }
   
-  .cta {
+  .std-cta {
       display: block;
       text-decoration: none;
       font: YuGothic;
@@ -25,16 +25,16 @@
       align-items: center;
   }
   
-  .cta:focus {
+  .std-cta:focus {
      outline: none;
   }
   
-  .cta:hover {
+  .std-cta:hover {
       background-color: #CCB84B;
       color: white;
       cursor: pointer;
   }
 
-  .cta:active {
+  .std-cta:active {
     background-color: #a3943d;
   }
