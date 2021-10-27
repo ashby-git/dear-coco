@@ -2,8 +2,11 @@ import React from 'react';
 
 import './message-page.styles.scss';
 
+// import MessageImageBg from '../../assets/message_bg.png';
+
 const MessagePage = () => (
     <div className="message-container">
+        {/* <img src={MessageImageBg} className="message-image-bg" alt="Message-img" /> */}
         <div className="message-page-break"></div>
         <div className="message-background">
             <div className="message-card">
