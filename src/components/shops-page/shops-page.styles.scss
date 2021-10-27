@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top left; 
+    padding-bottom: 212px;
 }
 
 .shops-title {
@@ -27,9 +28,7 @@
 .shops-button-group {
     display: flex;
     justify-content: center;
-    padding-bottom: 212px;
-}
-
-.shops-button-container {
-    margin-right: 65px;
+    flex-wrap: wrap;
+    gap: 65px;
+    padding: 0 50px;
 }
