@@ -2,12 +2,14 @@ import React from 'react';
 
 import './message-page.styles.scss';
 
+import AnimatedButton from '../animated-button/animated-button.component';
+
 const MessagePage = () => (
 
     <div className="message-background">
         <div className="message-card">
             <div className="message-card-content">
-                <div className="message-title">地球の恵み、ココナッツへの 愛を込めて。</div>
+                <h1 className="message-title">地球の恵み、ココナッツへの 愛を込めて。</h1>
                 <p className="message-paragraph">
                     豊富な栄養を持つことで知られるココナッツは、多くの国で食材として用いられるほか、その殻や繊維までも余すことなく資源として利用されています。<br />
                     熱帯地方の人々の暮らしを豊かにするココナッツは、まさに地球からのギフト。
@@ -18,11 +20,8 @@ const MessagePage = () => (
                 <p className="message-paragraph">
                     製品に関するご意見、ご質問は、下記よりお問い合わせください。
                 </p>
-
                 <div className="message-button-container">
-
-                    {/* お問い合わせページへ */}
-
+                    <AnimatedButton>お問い合わせページへ</AnimatedButton>
                 </div>
             </div>
         </div>
