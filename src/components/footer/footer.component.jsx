@@ -7,6 +7,10 @@ import twitterLogo from '../../assets/twitter_logo_white.svg';
 
 import './footer.styles.scss';
 
+const scrollToTop = () => {
+    window.scrollTo(0, 0);
+};
+
 const Footer = () => (
     <div className="footer-background">
         <div className="footer-top-section">
@@ -63,7 +67,7 @@ const Footer = () => (
             </div>
 
             <div className="footer-right-side">
-                <div className="top-button-container">
+                <div onClick={scrollToTop} className="top-button-container">
                     <div className="arrow">{'\u25B2'}</div>
                     <p className="top">TOP</p>
                 </div>
@@ -77,7 +81,6 @@ const Footer = () => (
                 <p className="bottom-right">©︎DEAR COCO INC. All rights reserved.</p>
             </div>
         </div>
-
     </div>
 );
 
