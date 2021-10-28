@@ -1,0 +1,58 @@
+.quality-page-container {
+    background-color: #F8F5F2;
+}
+
+.page-break {
+    height: 180px;
+}
+
+.qp-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #5A4537;
+    text-align: center;
+    letter-spacing: 4.32px;
+    margin-bottom: 23px;
+}
+
+.qp-subheading {
+    font-family: YuGothic;
+    font-size: 1em;
+    color: #5A4537;
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin-bottom: 77px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 77px;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.quality-content-group-container {
+    width: 50%;
+}
+
+.quality-content-group-left {
+    margin-left: 55px;
+    margin-top: 50px;
+
+}
+
+.quality-content-group-right {
+    float: right;
+    margin-right: 55px;
+    margin-top: 50px;
+    
+}
+
+.qp-button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 180px;
+}
