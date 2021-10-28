@@ -16,10 +16,12 @@ const Footer = () => (
         <div className="footer-top-section">
 
             <div className="footer-left-side">
-                <img className="footer-logo" src={footerLogo} alt="footer logo" />
-                <div className="smaller-logos">
-                    <img className="fb-logo" src={fbLogo} alt="footer logo" />
-                    <img src={twitterLogo} alt="footer logo" />
+                <div className="footer-logo-group">
+                    <img src={footerLogo} alt="footer logo" />
+                    <div className="footer-smaller-logos">
+                        <img src={fbLogo} alt="footer logo" />
+                        <img src={twitterLogo} alt="footer logo" />
+                    </div>
                 </div>
             </div>
 
