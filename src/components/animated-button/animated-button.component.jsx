@@ -4,8 +4,8 @@ import './animated-button.styles.scss';
 
 const AnimatedButton = (props) => (
 
-    <a className="wrapper" href={props.url}>
-        <div className="cta">
+    <a className="ani-wrapper" href={props.url}>
+        <div className="ani-cta">
             <span>{props.children}</span>
             <span>
                 <svg width="20px" height="40px" viewBox="0 0 66 43" version="1.1">
