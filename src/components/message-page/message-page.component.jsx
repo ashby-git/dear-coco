@@ -21,11 +21,16 @@ const MessagePage = () => (
                     製品に関するご意見、ご質問は、下記よりお問い合わせください。
                 </p>
                 <div className="message-button-container">
-                    <AnimatedButton>お問い合わせページへ</AnimatedButton>
+                    <AnimatedButton
+                        className="message-button"
+                        url="https://en.wikipedia.org/wiki/Coconut">
+                        お問い合わせページへ
+                    </AnimatedButton>
                 </div>
             </div>
         </div>
-    </div>
+    </div >
+
 );
 
 export default MessagePage;

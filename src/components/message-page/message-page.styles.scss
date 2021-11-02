@@ -3,19 +3,19 @@
     background-image: url(../../assets/message_bg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: auto;
-    padding-top: 180px;
+    background-size: contain;
     display: flex;
     justify-content: center;
+    padding-top: 180px;
 }
 
 .message-card {
     width: 880px;
-    height: 743px;
     background-color: white;
     opacity: 0.9;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
     margin-bottom: 180px;
 }
 
@@ -39,7 +39,7 @@
     color: #5A4537;
     text-align: center;
     line-height: 2;
-    width: 653px;
+    padding: 0 113px;
     margin-bottom: 40px;
 }
 
