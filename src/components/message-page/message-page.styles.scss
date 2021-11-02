@@ -1,0 +1,48 @@
+.message-background {
+    background-color: #F8F5F2;
+    background-image: url(../../assets/message_bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.message-card {
+    width: 880px;
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    margin-bottom: 180px;
+}
+
+.message-title {
+    font-family: YuMincho;
+    font-size: 1.7em;
+    letter-spacing: 1.4px;
+    color: #5A4537;
+    width: 380px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message-paragraph {
+    font-family: YuGothicMedium;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+    color: #5A4537;
+    text-align: center;
+    line-height: 2;
+    padding: 0 113px;
+    margin-bottom: 40px;
+}
+
+.message-button-container {
+    padding-top: 40px;
+}
