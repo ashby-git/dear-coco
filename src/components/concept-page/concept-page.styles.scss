@@ -1,0 +1,64 @@
+.cp-page-break {
+    height: 180px;
+    color: white;
+}
+
+.cp-page-container {
+    text-align: start;
+}
+
+.cp-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #5A4537;
+    letter-spacing: 4.32px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.cp-subheading {
+    font-family: YuMincho;
+    font-size: 1.6em;
+    color: #5A4537;
+    line-height: 2;
+    padding-bottom: 53px;
+}
+
+.cp-two-halfs-container {
+    display: flex;  
+    padding-bottom: 200px;
+}
+
+.cp-left-half-container {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.left-half-elements-group {
+    float: right;
+}
+
+.cp-textbox-container {
+    font-family: YuGothicMedium;
+    font-size: 1em;
+    color: #5A4537;
+    letter-spacing: 0.8px;
+    text-align: start;
+    line-height: 2;
+}
+
+.cp-textbox1 {
+    margin-bottom: 40px;
+}
+
+.cp-button-container {
+    padding-top: 60px;
+    float: left;
+}
+
+.cp-image-container {
+    width: 50%;
+    object-fit: scale-down;
+    margin-top: 90px;
+}

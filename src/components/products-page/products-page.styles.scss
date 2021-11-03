@@ -1,0 +1,42 @@
+.products-page-container {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.pp-bg-leaf {
+    object-fit: cover;
+    object-position: bottom right;
+    width: 485px;
+    height: 826px;
+    opacity: 0.8;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.pp-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #5A4537;
+    text-align: center;
+    letter-spacing: 4.32px;
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+
+.pp-subheading {
+    font-family: YuGothicMedium;
+    font-size: 1em;
+    color: #5A4537;
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin-bottom: 60px;
+}
+
+.pp-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0 50px;
+    margin-bottom: 70px;
+}

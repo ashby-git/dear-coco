@@ -2,13 +2,13 @@
     box-sizing: border-box;
   }
   
-  .wrapper {
+  .std-wrapper {
     display: flex;
     justify-content: center;
     position: relative;
   }
   
-  .cta {
+  .std-cta {
       display: block;
       text-decoration: none;
       font: YuGothic;
@@ -16,7 +16,7 @@
       text-transform: uppercase;
       color: #5A4537;
       background: white;
-      transition: 0.5s;
+      transition: 0.3s;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -25,18 +25,16 @@
       align-items: center;
   }
   
-  .cta:focus {
-     outline: none; 
+  .std-cta:focus {
+     outline: none;
   }
   
-  .cta:hover {
-      background-color: #FBC638;
+  .std-cta:hover {
+      background-color: #CCB84B;
       color: white;
+      cursor: pointer;
   }
 
-  
-
-  
-
-
-  
+  .std-cta:active {
+    background-color: #a3943d;
+  }
