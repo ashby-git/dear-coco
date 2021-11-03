@@ -7,6 +7,7 @@ import newsImage3 from '../../assets/news_img_03.jpg';
 import newsImage4 from '../../assets/news_img_04.jpg';
 import newsImage5 from '../../assets/news_img_05.jpg';
 import newsImage6 from '../../assets/news_img_06.jpg';
+import messageLeaf from '../../assets/news_bg_right.png'
 import AnimatedButton from '../animated-button/animated-button.component';
 import MessagePage from '../message-page/message-page.component';
 
@@ -15,7 +16,6 @@ import './news-page.styles.scss';
 const NewsPage = () => (
 
     <div>
-
         <div className="news-page-background">
             <p className="news-title">NEWS</p>
             <p className="news-subheading">お知らせ</p>
@@ -68,15 +68,14 @@ const NewsPage = () => (
 
                 </div>
             </div>
+            <img className="news-bg-leaf" src={messageLeaf} alt="bg-leaf" />
             <div className="news-button-container">
                 <AnimatedButton url="https://en.wikipedia.org/wiki/Coconut">
                     記事一覧へ
                 </AnimatedButton>
             </div>
         </div>
-
         <MessagePage />
-
     </div>
 
 );
