@@ -65,7 +65,9 @@ const NewsPage = () => (
             </div>
         </div>
         <div className="news-button-container">
-            <AnimatedButton>記事一覧へ</AnimatedButton>
+            <AnimatedButton url="https://en.wikipedia.org/wiki/Coconut">
+                記事一覧へ
+            </AnimatedButton>
         </div>
 
     </div>
