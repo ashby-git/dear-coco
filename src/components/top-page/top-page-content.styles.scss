@@ -1,3 +1,13 @@
+.tp-background {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(../../assets/kv_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 .japanese-text {
     color: white;
     font-family: YuMincho;
