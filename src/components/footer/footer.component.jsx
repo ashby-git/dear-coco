@@ -4,7 +4,6 @@ import footerLogo from '../../assets/footer-logo.svg';
 import fbLogo from '../../assets/f_logo_white.svg';
 import twitterLogo from '../../assets/twitter_logo_white.svg';
 
-
 import './footer.styles.scss';
 
 const scrollToTop = () => {
@@ -79,8 +78,8 @@ const Footer = () => (
         <div className="footer-bottom">
             <div className="line" />
             <div className="footer-bottom-text-container">
-                <p className="bottom-left">PRIVACYPOLICY | Terms of use</p>
-                <p className="bottom-right">©︎DEAR COCO INC. All rights reserved.</p>
+                <p className="footer-bottom-text">PRIVACYPOLICY | Terms of use</p>
+                <p className="footer-bottom-text">©︎DEAR COCO INC. All rights reserved.</p>
             </div>
         </div>
     </div>
