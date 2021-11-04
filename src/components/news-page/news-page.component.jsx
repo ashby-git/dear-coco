@@ -20,7 +20,7 @@ const NewsPage = () => (
             <p className="news-title">NEWS</p>
             <p className="news-subheading">お知らせ</p>
 
-            <div className="container-container">
+            <div className="center-ncg-container">
                 <div className="news-content-group-container">
 
                     <NewsContentGroup
