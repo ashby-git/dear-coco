@@ -4,7 +4,7 @@
     min-width: 640px;
 }
 
-.footer-top-section {
+.footer-top {
     display: flex;
 }
 
@@ -109,4 +109,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     color: white;
+}
+
+@media (max-width: 950px) {
+    .page-info-group-container {
+        width: 180px;
+    }
+
+    .page-content {
+        display: none;
+    }
+
+    .page-info-group {
+        height: auto;
+    }
+
+    .footer-bottom-text-container {
+        width: 80%;
+    }
 }

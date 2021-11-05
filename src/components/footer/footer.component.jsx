@@ -12,7 +12,7 @@ const scrollToTop = () => {
 
 const Footer = () => (
     <div className="footer-background">
-        <div className="footer-top-section">
+        <div className="footer-top">
 
             <div className="footer-left-side">
                 <div className="footer-logo-group">
