@@ -44,6 +44,25 @@
     font-size: 1em;
     color: white;
     margin-bottom: 24px;
+
+    &:link {
+        color: white;
+    }
+
+    &:hover {
+        color: #CEBB35;
+        cursor: pointer;
+    }
+
+    &:active {
+        text-decoration: underline;
+        text-decoration-color: #CEBB35;
+    }
+
+    &:visited {
+        color: grey;
+    }
+
 }
 
 .page-content {
