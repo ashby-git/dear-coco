@@ -125,10 +125,14 @@
     justify-content: center;
 }
 
-.top {
+@mixin text_style {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     color: white;
+}
+
+.top {
+    @include text_style;
     text-align: center;
 }
 
@@ -143,9 +147,7 @@
 }
 
 .footer-bottom-text-left {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-    color: white;
+    @include text_style;
     text-decoration: none;
 
     &:hover {
@@ -154,9 +156,7 @@
 }
 
 .footer-bottom-text-right {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-    color: white;
+    @include text_style;
 }
 
 @media (max-width: 950px) {
