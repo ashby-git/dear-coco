@@ -18,8 +18,8 @@ const Footer = () => (
                 <div className="footer-logo-group">
                     <img src={footerLogo} alt="footer logo" />
                     <div className="footer-smaller-logos">
-                        <img src={fbLogo} alt="footer logo" />
-                        <img src={twitterLogo} alt="footer logo" />
+                        <a href="https://en.wikipedia.org/wiki/Facebook"><img src={fbLogo} alt="footer logo" /></a>
+                        <a href="https://en.wikipedia.org/wiki/Twitter"><img src={twitterLogo} alt="footer logo" /></a>
                     </div>
                 </div>
             </div>
@@ -28,41 +28,41 @@ const Footer = () => (
                 <div className="page-info-group-container">
                     <div className="page-info-group">
                         <p className="page-name">CONCEPT</p>
-                        <p className="page-content">DEAR COCOとは</p>
-                        <p className="page-content">ココナッツの力</p>
-                        <p className="page-content">ブランドストーリー</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">DEAR COCOとは</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">ココナッツの力</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">ブランドストーリー</a>
                     </div>
 
                     <div className="page-info-group">
                         <p className="page-name">QUALITY</p>
-                        <p className="page-content">フェアトレードについて</p>
-                        <p className="page-content">主な成分</p>
-                        <p className="page-content">SDGsへの取り組み</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">フェアトレードについて</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">主な成分</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">SDGsへの取り組み</a>
                     </div>
 
                     <div className="page-info-group">
                         <p className="page-name">PRODUCTS</p>
-                        <p className="page-content">商品一覧</p>
-                        <p className="page-content">新商品ピックアップ</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">商品一覧</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">新商品ピックアップ</a>
                     </div>
 
                     <div className="page-info-group">
                         <p className="page-name">SHOPS</p>
-                        <p className="page-content">取扱店舗一覧</p>
-                        <p className="page-content">オンラインショップ</p>
-                        <p className="page-content">ショップガイド</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">取扱店舗一覧</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">オンラインショップ</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">ショップガイド</a>
                     </div>
 
                     <div className="page-info-group">
                         <p className="page-name">NEWS</p>
-                        <p className="page-content">新着情報</p>
-                        <p className="page-content">メディア掲載実績</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">新着情報</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">メディア掲載実績</a>
                     </div>
 
                     <div className="page-info-group">
                         <p className="page-name">CONTACT</p>
-                        <p className="page-content">FAQ - よくある質問</p>
-                        <p className="page-content">問い合わせフォーム</p>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">FAQ - よくある質問</a>
+                        <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">問い合わせフォーム</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ const Footer = () => (
         <div className="footer-bottom">
             <div className="line" />
             <div className="footer-bottom-text-container">
-                <p className="footer-bottom-text">PRIVACYPOLICY | Terms of use</p>
+                <a href="https://en.wikipedia.org/wiki/Privacy_policy" className="footer-bottom-text">PRIVACYPOLICY | Terms of use</a>
                 <p className="footer-bottom-text">©︎DEAR COCO INC. All rights reserved.</p>
             </div>
         </div>

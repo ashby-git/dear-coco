@@ -18,6 +18,10 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .footer-middle {
@@ -58,11 +62,6 @@
         text-decoration: underline;
         text-decoration-color: #CEBB35;
     }
-
-    &:visited {
-        color: grey;
-    }
-
 }
 
 .page-content {
@@ -70,6 +69,25 @@
     font-size: 0.75em;
     color: white;
     margin-bottom: 24px;
+    text-decoration: none;
+
+    &:link {
+        color: white;
+    }
+
+    &:hover {
+        color: #CEBB35;
+        cursor: pointer;
+    }
+
+    &:active {
+        text-decoration: underline;
+        text-decoration-color: #CEBB35;
+    }
+
+    &:visited {
+        color: grey;
+    }
 }
 
 .footer-left-side {
@@ -128,6 +146,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     color: white;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 950px) {
