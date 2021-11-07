@@ -22,7 +22,7 @@ const QualityPage = () => (
         <div className="qp-content-layout">
 
             <div className="qp-row-v1">
-                <img className="quality-image" src={qualityImage1} alt="img" />
+                <img className="quality-image" src={qualityImage1} alt="quality-img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup
@@ -44,11 +44,11 @@ const QualityPage = () => (
                         />
                     </div>
                 </div>
-                <img className="quality-image" src={qualityImage2} alt="img" />
+                <img className="quality-image" src={qualityImage2} alt="quality-img" />
             </div>
 
             <div className="qp-row-v1">
-                <img className="quality-image" src={qualityImage3} alt="img" />
+                <img className="quality-image" src={qualityImage3} alt="quality-img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup

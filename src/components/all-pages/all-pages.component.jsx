@@ -8,8 +8,8 @@ import ConceptPage from '../concept-page/concept-page.component';
 import QualityPage from '../quality-page/quality-page.component';
 import ProductsPage from '../products-page/products-page.component';
 import ShopsPage from '../shops-page/shops-page.component';
-// import NewsPage from '../news-page/news-page.component';
-// import Footer from '../footer/footer.component';
+import NewsPage from '../news-page/news-page.component';
+import Footer from '../footer/footer.component';
 
 const AllPages = () => (
     <div>
@@ -19,8 +19,8 @@ const AllPages = () => (
         <QualityPage />
         <ProductsPage />
         <ShopsPage />
-        {/* <NewsPage /> */}
-        {/* <Footer /> */}
+        <NewsPage />
+        <Footer />
     </div>
 );
 

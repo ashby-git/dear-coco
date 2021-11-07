@@ -25,42 +25,42 @@ const NewsPage = () => (
 
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage1}
+                        newsImage={newsImage1}
                         article="2021年、明けましておめでとうございます"
                         date="2021.01.04"
                         mediaType="Press Release"
                     />
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage2}
+                        newsImage={newsImage2}
                         article="雑誌『Organic』にて、当社商品が紹介されました！"
                         date="2020.08.10"
                         mediaType="Media"
                     />
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage3}
+                        newsImage={newsImage3}
                         article="DEAR COCOから新しいライフスタイルを提案"
                         date="2020.01.15"
                         mediaType="Press Release"
                     />
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage4}
+                        newsImage={newsImage4}
                         article="年内営業日・年始営業開始日についてのお知らせ"
                         date="2020.12.27"
                         mediaType="Press Release"
                     />
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage5}
+                        newsImage={newsImage5}
                         article="緊急事態宣言発令に伴う、当社の対応について"
                         date="2020.04.08"
                         mediaType="Press Release"
                     />
                     <NewsContentGroup
                         url="https://www.bbc.co.uk/news"
-                        image={newsImage6}
+                        newsImage={newsImage6}
                         article="新商品のお知らせ"
                         date="2019.10.27"
                         mediaType="Press Release"

@@ -76,7 +76,7 @@ const Footer = () => (
         </div>
 
         <div className="footer-bottom">
-            <div className="line" />
+            <div className="footer-line" />
             <div className="footer-bottom-text-container">
                 <a href="https://en.wikipedia.org/wiki/Privacy_policy" className="footer-bottom-text">PRIVACYPOLICY | Terms of use</a>
                 <p className="footer-bottom-text">©︎DEAR COCO INC. All rights reserved.</p>
