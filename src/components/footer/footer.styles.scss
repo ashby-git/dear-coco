@@ -142,7 +142,7 @@
     justify-content: space-around;
 }
 
-.footer-bottom-text {
+.footer-bottom-text-left {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.75em;
     color: white;
@@ -151,6 +151,12 @@
     &:hover {
         cursor: pointer;
     }
+}
+
+.footer-bottom-text-right {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    color: white;
 }
 
 @media (max-width: 950px) {
