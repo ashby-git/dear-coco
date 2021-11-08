@@ -5,9 +5,9 @@ import './online-shop-button.styles.scss';
 const OnlineShopButton = () => (
 
     <div className="online-shop-button">
-        <div className="icon-text-container">
-            <div className="icon" />
-            <p className="text">
+        <div className="osb-icon-text-container">
+            <div className="osb-icon" />
+            <p className="osb-text">
                 Online Shop
             </p>
         </div>

@@ -11,7 +11,7 @@
     }
 }
 
-.text {
+.osb-text {
     color: white;
     font-family: 'Times New Roman';
     font-size: 16px;
@@ -22,16 +22,26 @@
     margin-left: 15px;
 }
 
-.icon {
+.osb-icon {
     width:25px;
     height: 23px;
     background: url(../../../assets/sp_shopping_icon.svg);
     margin-left: 32px;
 }
 
-.icon-text-container {
+.osb-icon-text-container {
     width: 220px;
     height: 24px;
     align-self: center;
     display: flex;
+}
+
+@media (max-width: 1025px) {
+    .osb-text {
+        display: none;
+    }
+
+    .online-shop-button {
+        width: 90px;
+    }
 }
