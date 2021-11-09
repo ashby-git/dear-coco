@@ -12,16 +12,16 @@
     margin-top: 56px;
     width: min-content;
     justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .footer-smaller-logos {
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
-
-    &:hover {
-        cursor: pointer;
-    }
 }
 
 .footer-middle {

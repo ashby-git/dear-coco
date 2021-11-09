@@ -21,7 +21,7 @@ const Footer = () => (
 
             <div className="footer-left-side">
                 <div className="footer-logo-group">
-                    <img src={footerLogo} alt="footer logo" />
+                    <img src={footerLogo} onClick={scrollToTop} alt="footer logo" />
                     <div className="footer-smaller-logos">
                         <a href="https://en.wikipedia.org/wiki/Facebook"><img src={fbLogo} alt="footer logo" /></a>
                         <a href="https://en.wikipedia.org/wiki/Twitter"><img src={twitterLogo} alt="footer logo" /></a>
