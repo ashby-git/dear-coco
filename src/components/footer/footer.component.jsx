@@ -6,8 +6,13 @@ import twitterLogo from '../../assets/twitter_logo_white.svg';
 
 import './footer.styles.scss';
 
+var rootElement = document.documentElement
+
 const scrollToTop = () => {
-    window.scrollTo(0, 0);
+    rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 };
 
 const Footer = () => (
