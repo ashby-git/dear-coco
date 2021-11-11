@@ -11,7 +11,7 @@ import qualityImage3 from '../../assets/quality_img_03.jpg'
 
 const QualityPage = () => (
 
-    <div className="quality-page-container">
+    <div id="quality" className="quality-page-container">
 
         <div className="qp-page-break"></div>
 

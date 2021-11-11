@@ -6,7 +6,7 @@ import AnimatedButton from '.././animated-button/animated-button.component';
 import './concept-page.styles.scss';
 
 const ConceptPage = () => (
-    <div className="cp-full-container">
+    <div id="concept" className="cp-full-container">
 
         <div className="cp-page-break" />
         <div className="cp-page-container">

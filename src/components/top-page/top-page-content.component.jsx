@@ -4,7 +4,7 @@ import './top-page-content.styles.scss';
 
 const TopPageContent = () => (
 
-    <div className="tp-background">
+    <div id="top" className="tp-background">
         <div className="japanese-text-container">
             <p className="japanese-text">
                 地球に優しいコスメは、

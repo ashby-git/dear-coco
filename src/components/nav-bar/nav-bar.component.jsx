@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import NavBarItem from './nav-bar-item/nav-bar-item.component.jsx';
 import OnlineShopButton from './online-shop-button/online-shop-button.component.jsx';
 import logo from '../../assets/logo.svg';
@@ -9,28 +10,61 @@ const NavBar = () => (
         <div className="nav-bar-container">
 
             <div className="nbi-wrap">
-                <div className="nav-bar-item-container">
+                <Link
+                    className="nav-bar-item-container"
+                    to="concept"
+                    smooth={true}
+                    duration={500}
+                >
                     <NavBarItem>Concept</NavBarItem>
-                </div>
-                <div className="nav-bar-item-container">
+                </Link>
+                <Link
+                    className="nav-bar-item-container"
+                    to="quality"
+                    smooth={true}
+                    duration={500}
+                >
                     <NavBarItem>Quality</NavBarItem>
-                </div>
-                <div className="nav-bar-item-container">
+                </Link>
+                <Link
+                    className="nav-bar-item-container"
+                    to="products"
+                    smooth={true}
+                    duration={500}
+                    offset={-180}
+                >
                     <NavBarItem>Products</NavBarItem>
-                </div>
+                </Link>
             </div>
 
-            <div className="logo-container">
+            <Link
+                className="logo-container"
+                to="top"
+                smooth={true}
+                duration={500}
+            >
                 <img src={logo} alt="white logo" />
-            </div>
+            </Link>
 
             <div className="nbi-wrap">
-                <div className="nav-bar-item-container">
+                <Link
+                    className="nav-bar-item-container"
+                    to="shops"
+                    smooth={true}
+                    duration={500}
+                    offset={-180}
+                >
                     <NavBarItem>Shops</NavBarItem>
-                </div>
-                <div className="nav-bar-item-container">
+                </Link>
+                <Link
+                    className="nav-bar-item-container"
+                    to="news"
+                    smooth={true}
+                    duration={500}
+                    offset={35}
+                >
                     <NavBarItem>News</NavBarItem>
-                </div>
+                </Link>
                 <div className="nav-bar-item-container">
                     <NavBarItem>Contact</NavBarItem>
                 </div>

@@ -15,7 +15,7 @@ import './news-page.styles.scss';
 
 const NewsPage = () => (
 
-    <div>
+    <div id="news">
         <div className="news-page-background">
             <p className="news-title">NEWS</p>
             <p className="news-subheading">お知らせ</p>
