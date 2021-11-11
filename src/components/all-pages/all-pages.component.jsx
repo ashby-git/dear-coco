@@ -11,6 +11,10 @@ import ShopsPage from '../shops-page/shops-page.component';
 import NewsPage from '../news-page/news-page.component';
 import Footer from '../footer/footer.component';
 
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
 const AllPages = () => (
     <div>
         <Navbar />
