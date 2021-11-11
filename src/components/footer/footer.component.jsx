@@ -87,7 +87,13 @@ const Footer = () => (
                     </div>
 
                     <div className="page-info-group">
-                        <p className="page-name">CONTACT</p>
+                        <Link
+                            className="page-name"
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            offset={10}
+                        >CONTACT</Link>
                         <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">FAQ - よくある質問</a>
                         <a href="https://en.wikipedia.org/wiki/Coconut" className="page-content">問い合わせフォーム</a>
                     </div>

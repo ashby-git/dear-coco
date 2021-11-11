@@ -6,7 +6,7 @@ import AnimatedButton from '../animated-button/animated-button.component';
 
 const MessagePage = () => (
 
-    <div className="message-background">
+    <div id="contact" className="message-background">
         <div className="message-card">
             <div className="message-card-content">
                 <h1 className="message-title">地球の恵み、ココナッツへの 愛を込めて。</h1>

@@ -65,9 +65,15 @@ const NavBar = () => (
                 >
                     <NavBarItem>News</NavBarItem>
                 </Link>
-                <div className="nav-bar-item-container">
+                <Link
+                    className="nav-bar-item-container"
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    offset={10}
+                >
                     <NavBarItem>Contact</NavBarItem>
-                </div>
+                </Link>
             </div>
 
             <div className="shop-button-container">
