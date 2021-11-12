@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './all-pages.styles.scss';
-
 import Navbar from '../nav-bar/nav-bar.component';
 import TopPageContent from '../top-page/top-page-content.component';
 import ConceptPage from '../concept-page/concept-page.component';
