@@ -8,7 +8,7 @@ const QualityContentGroup = (props) => (
             <div className="number">{props.number}</div>
             <p className="subheading">{props.subheading}</p>
         </div>
-        <div className="line" />
+        <div className="quality-line" />
         <p className="quality-content-textbox">{props.textbox}</p>
     </div>
 );

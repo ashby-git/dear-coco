@@ -6,7 +6,7 @@ import StandardButton from '../standard-button/standard-button.component'
 
 const ShopsPage = () => (
 
-    <div className="shops-background">
+    <div id="shops" className="shops-background">
         <h1 className="shops-title">SHOPS</h1>
         <h2 className="shops-subheading">店舗またはオンラインショップよりご購入いただけます</h2>
         <div className="shops-button-group">

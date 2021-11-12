@@ -5,6 +5,7 @@
 
 .cp-page-container {
     text-align: start;
+    overflow: hidden;
 }
 
 .cp-title {
@@ -61,4 +62,38 @@
     width: 50%;
     object-fit: scale-down;
     margin-top: 90px;
+}
+
+@media (max-width: 1200px) {
+    .cp-image-container {
+        display: none;
+    }
+    
+    .cp-page-container {
+        background-image: url('../../assets/concept_bg.png');
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-position: right -370px bottom -20px;
+    }
+
+     .cp-left-half-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .cp-textbox-container {
+        text-align: center;
+        width: max-content;
+    }
+
+    .cp-subheading {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .cp-button-container {
+        float: none;
+    }
 }

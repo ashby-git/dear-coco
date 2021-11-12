@@ -1,3 +1,13 @@
+.tp-background {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(../../assets/kv_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 .japanese-text {
     color: white;
     font-family: YuMincho;
@@ -8,6 +18,11 @@
     text-align: start;
     width: 37vw;
     height: auto;
+
+    @media (max-width: 850px) {
+        font-size: 24px;
+        width: 100%;
+    }
 }
 
 .japanese-text-container {
@@ -26,13 +41,26 @@
     transform: matrix(0.99, -0.16, 0.16, 0.99, 0, 0);
     width: 55vw;
     height: auto;
+
+    @media (max-width: 850px) {
+        font-size: 50px;
+        width: 200px;
+    }
 }
 
 .english-text-big {
     font-size: 8vw;
+
+    @media (max-width: 850px) {
+        font-size: 50px;
+    }
 }
 
 .english-text-container {
     padding-top: 23vh;
     padding-left: 39vw; 
+
+    @media (max-width: 850px) {
+    padding-top: 27vh;
+    }
 }

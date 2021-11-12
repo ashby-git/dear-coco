@@ -11,18 +11,18 @@ import qualityImage3 from '../../assets/quality_img_03.jpg'
 
 const QualityPage = () => (
 
-    <div className="quality-page-container">
+    <div id="quality" className="quality-page-container">
 
-        <div className="page-break"></div>
+        <div className="qp-page-break"></div>
 
         <div className="qp-title">OUR QUALITY</div>
 
         <div className="qp-subheading">DEAR COCOの３つのこだわり</div>
 
-        <div className="content-layout">
+        <div className="qp-content-layout">
 
-            <div className="row">
-                <img src={qualityImage1} alt="img" />
+            <div className="qp-row-v1">
+                <img className="quality-image" src={qualityImage1} alt="quality-img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup
@@ -34,7 +34,7 @@ const QualityPage = () => (
                 </div>
             </div>
 
-            <div className="row">
+            <div className="qp-row-v2">
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-right">
                         <QualityContentGroup
@@ -44,11 +44,11 @@ const QualityPage = () => (
                         />
                     </div>
                 </div>
-                <img src={qualityImage2} alt="img" />
+                <img className="quality-image" src={qualityImage2} alt="quality-img" />
             </div>
 
-            <div className="row">
-                <img src={qualityImage3} alt="img" />
+            <div className="qp-row-v1">
+                <img className="quality-image" src={qualityImage3} alt="quality-img" />
                 <div className="quality-content-group-container">
                     <div className="quality-content-group-left">
                         <QualityContentGroup

@@ -11,7 +11,7 @@ import productsImage3 from '../../assets/products_img_03.jpg'
 import productsLeaf from '../../assets/products_bg_left.png'
 
 const ProductsPage = () => (
-    <div className="products-page-container">
+    <div id="products" className="products-page-container">
 
         <img className="pp-bg-leaf" src={productsLeaf} alt="bg-leaf" />
         <h1 className="pp-title">PRODUCTS</h1>

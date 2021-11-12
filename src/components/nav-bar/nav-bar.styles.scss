@@ -1,25 +1,42 @@
-.fixed-position {
+.navbarFixed {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
+}
+
+.navbarFixed.active {
+    background-color: #5A4537;
+    opacity: 0.98;
 }
 
 .nav-bar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 19vw;
+    margin-left: 17vw;
+}
+
+.nbi-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
 }
 
 .logo-container {
-    margin-top: 8px;
+    cursor: pointer;
 }
 
-.nav-bar-item-container {
-    margin-bottom: 20px;
-}
+@media (max-width: 1025px) {
+    .nbi-wrap{
+        display: block;
+        margin-bottom: 5px;
+    }
 
-.shop-button-container {
-    margin-bottom: 30px;
+    .nav-bar-item-container {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
 }

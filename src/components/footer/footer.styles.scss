@@ -12,16 +12,16 @@
     margin-top: 56px;
     width: min-content;
     justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .footer-smaller-logos {
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
-
-    &:hover {
-        cursor: pointer;
-    }
 }
 
 .footer-middle {
@@ -136,7 +136,7 @@
     text-align: center;
 }
 
-.line {
+.footer-line {
     border-top: 3px solid white;
 }
 
@@ -158,6 +158,8 @@
 @media (max-width: 950px) {
     .page-info-group-container {
         width: 180px;
+
+        float: right;
     }
 
     .page-content {
@@ -170,5 +172,35 @@
 
     .footer-bottom-text-container {
         width: 80%;
+    }
+
+
+
+    .footer-top {
+        justify-content: space-around;
+    }
+
+    .footer-left-side {
+        width: 100%;
+    }
+
+    .footer-middle {
+        width: 100%;
+    }
+
+    .footer-right-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .top-button-container {
+        float: left;   
+    }
+
+    .footer-right-side {
+        display: block;
     }
 }

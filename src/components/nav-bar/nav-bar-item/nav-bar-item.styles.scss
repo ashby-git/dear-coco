@@ -1,4 +1,4 @@
-.container {
+.nbi-container {
     width:auto;
     height: 100%;
     display: flex;
@@ -12,13 +12,12 @@
     font-weight: bold;
     text-shadow: 0px 0px 9px #00000012;
     text-transform: uppercase;
-    
+    margin: 5px 0px;
     cursor: pointer;
 
     &:hover {
         color: #CEBB35;
         text-decoration: underline;
         text-decoration-color: #CEBB35;
-        
     }
 }
