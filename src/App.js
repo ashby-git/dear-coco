@@ -1,16 +1,9 @@
 import './App.css';
+import AllPages from './components/all-pages/all-pages.component';
 
 function App() {
   return (
-    <div className="container">
-      <div className='background'>
-        <div>
-          <header className="App-header">
-            DEAR COCO
-          </header>
-        </div>
-      </div>
-    </div>
+    <AllPages />
   );
 }
 
