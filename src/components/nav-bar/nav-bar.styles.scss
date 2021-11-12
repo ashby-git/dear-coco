@@ -1,9 +1,14 @@
-.fixed-position {
+.navbarFixed {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 99;
+}
+
+.navbarFixed.active {
+    background-color: #5A4537;
+    opacity: 0.98;
 }
 
 .nav-bar-container {
