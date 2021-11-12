@@ -3,8 +3,10 @@
     opacity: 0.9;
     display: inline-flex;
     width: 222px;
-    height:96px;
+    height: 115px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
         background-color: #CCB84B;   
@@ -26,7 +28,6 @@
     width:25px;
     height: 23px;
     background: url(../../../assets/sp_shopping_icon.svg);
-    margin-left: 32px;
 }
 
 .osb-icon-text-container {
@@ -34,6 +35,7 @@
     height: 24px;
     align-self: center;
     display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 1025px) {
@@ -42,6 +44,6 @@
     }
 
     .online-shop-button {
-        width: 90px;
+        width: 115px;
     }
 }

@@ -89,10 +89,7 @@ const NavBar = () => {
                         <NavBarItem>Contact</NavBarItem>
                     </Link>
                 </div>
-
-                <div className="shop-button-container">
-                    <OnlineShopButton />
-                </div>
+                <OnlineShopButton />
             </div>
         </div>
     )
